@@ -1,0 +1,99 @@
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 304px;
+  height: 500px;
+  border-radius: 10px;
+
+  button {
+    background-color: blue;
+    width: 275.85px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    height: 44px;
+  }
+}
+
+
+dialog {
+  height: 400px;
+  width: 600px;
+  position: fixed;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  border-radius: 8px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+dialog::backdrop {
+  background-color: transparent;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: end;
+
+  button {
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+}
+
+.modal-body {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+}
+
+.btn-minus,
+.btn-plus {
+  background-color: #ededed;
+  border: none;
+  height: 36px;
+  width: 30px;
+  border-radius: 5px;
+}
+
+.btn-buy {
+  height: 36px;
+  width: 188px;
+  background-color: #F7CA11;
+  font-weight: bold;
+  border: none;
+  color: black;
+  border-radius: 5px;
+}
+
+/* On screens that are 992px or less*/
+@media screen and (max-width: 992px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 600px) {
+  .grid {
+    display: grid;
+    grid-template-columns: auto;
+  }
+}
