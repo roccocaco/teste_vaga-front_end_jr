@@ -15,11 +15,4 @@ Antes de começar, você precisará ter o seguinte instalado em sua máquina:
 
 - [npm](https://www.npmjs.com/) (gerenciador de pacotes do Node.js)
 
-## Clonando o Repositório
-
-Primeiro, clone o repositório para o seu computador:
-
-```bash
-git clone https://github.com/roccocaco/vitrine-de-produtos.git
-cd vitrine-de-produtos
 ```
