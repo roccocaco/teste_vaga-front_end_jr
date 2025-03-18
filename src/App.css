@@ -1,6 +1,14 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto auto;
+  grid-template-columns: 20% 20% 20% 20%;
+  gap: 60px;
 }
 
 .card {
@@ -8,6 +16,7 @@
   width: 304px;
   height: 500px;
   border-radius: 10px;
+  text-align: center;
 
   button {
     background-color: blue;
@@ -19,7 +28,6 @@
     height: 44px;
   }
 }
-
 
 dialog {
   height: 400px;
@@ -35,7 +43,7 @@ dialog {
 }
 
 dialog::backdrop {
-  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .modal-header {
@@ -82,7 +90,6 @@ dialog::backdrop {
   border-radius: 5px;
 }
 
-/* On screens that are 992px or less*/
 @media screen and (max-width: 992px) {
   .grid {
     display: grid;
@@ -90,7 +97,7 @@ dialog::backdrop {
   }
 }
 
-/* On screens that are 600px or less*/
+
 @media screen and (max-width: 600px) {
   .grid {
     display: grid;

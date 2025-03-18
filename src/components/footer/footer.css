@@ -1,84 +1,84 @@
 footer {
-    background-color: #F4F4F4; /* Cor de fundo do rodapé */
+    background-color: #F4F4F4;
     font-family: sans-serif;
-    width: 1440px;
     height: 282px;
-  }
-  
-  /* Estilos da newsletter */
-  .newsletter {
-    background-color: #271C47; /* Cor de fundo da newsletter */
-    color:#FFFFFF;
-    width: 1440px;
+}
+
+.newsletter {
+    background-color: #271C47;
+    color: #FFFFFF;
     height: 162px;
     padding: 20px;
     text-align: center;
-  }
-  
-  .newsletter p {
+}
+
+.newsletter p {
     font-size: 1.2em;
     margin-bottom: 10px;
-  }
-  
-  .newsletter input {
+}
+
+.newsletter input {
     padding: 10px;
     margin: 5px;
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .newsletter button {
-    background-color: #F7CA11; /* Cor do botão */
+}
+
+.newsletter button {
+    background-color: #F7CA11;
     color: #161615;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-  }
-  
-  /* Estilos do conteúdo principal */
-  .conteudo-principal {
+}
+
+.conteudo-principal {
     display: flex;
     justify-content: space-around;
     padding: 30px;
-  }
-  
-  .logo img {
-    width: 150px; /* Ajuste o tamanho do logo */
+}
+
+.logo img {
+    width: 150px;
     margin-bottom: 10px;
-  }
-  
-  .redes-sociais img {
-    width: 30px; /* Ajuste o tamanho dos ícones */
+}
+
+.redes-sociais img {
+    width: 30px;
     margin: 5px;
-  }
-  
-  .links {
+}
+
+.links {
     display: flex;
-  }
-  
-  .links div {
+}
+
+.links div {
     margin: 0 20px;
-  }
-  
-  .links h3 {
+}
+
+.links h3 {
     margin-bottom: 10px;
-  }
-  
-  .links ul {
+}
+
+.links ul {
     list-style: none;
     padding: 0;
-  }
-  
-  .links li {
+}
+
+.links li {
     margin-bottom: 5px;
-  }
-  
-  /* Estilos do copyright */
-  .copyright {
+}
+
+.copyright {
     width: 1441px;
     height: 46.84px;
     text-align: center;
     padding: 20px;
-    background-color:#FFFFFF; 
-  }
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #222222B5;
+}

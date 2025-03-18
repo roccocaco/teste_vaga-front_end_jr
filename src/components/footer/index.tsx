@@ -1,6 +1,10 @@
 import './footer.css'; 
+import facebook from '../../assets/facebook.png'
+import linkedin from '../../assets/linkedin.png'
+import instagram from '../../assets/instagram.png'
+import logo from '../../assets/logo.png'
 
-function Footer() {
+export default function Footer() {
   return (
     <footer>
       <div className="newsletter">
@@ -18,17 +22,17 @@ function Footer() {
 
       <div className="conteudo-principal">
         <div className="logo">
-          <img src="/logo.png" alt="Logo da Converse" />
-          <p>Seu texto sobre a marca...</p>
+          <img src={logo} alt="Logo da Converse" />
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
           <div className="redes-sociais">
             <a href="#">
-              <img src="/facebook.png" alt="Facebook" />
+              <img src={instagram} alt="Instagram" />
             </a>
             <a href="#">
-              <img src="/twitter.png" alt="Twitter" />
+              <img src={facebook} alt="Facebook" />
             </a>
             <a href="#">
-              <img src="/instagram.png" alt="Instagram" />
+              <img src={linkedin} alt="LinkedIn" />
             </a>
           </div>
         </div>
@@ -69,5 +73,3 @@ function Footer() {
     </footer>
   );
 }
-
-export default Footer;

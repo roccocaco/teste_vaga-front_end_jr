@@ -1,0 +1,7 @@
+.section {
+    height: 390px;
+    background-image: url('https://s3-alpha-sig.figma.com/img/d701/1fef/1efb13345a3fe61853be204c92174e87?Expires=1743379200&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=bdr9VQOg6BmvwcfdyygjC5gcUusIA64pH7-5ETslKC3GXjkXhEqLiL1qN2OMlZ14QPMz7GprucQdvK7BD3UY0kY76U3aI9rLL-Q-69-KvoqLKXTGhzk84xBzy84PWz9TljIF9fU2psexdh-qzLCP2Q7KEYp4RunzbeoPHFF9yEFU2DYYTmn9hIbARau8xWwQq2mFbGgK5hI1DQHwaofLXb3GFda2Zq6k0gQqAegvF7MIAhsUDCdJg2OWy65SE7239y6VyjIiXxcvJDZzw8UOYwRkuMQ1Uiui3EMQXkWjpedbHpHfIDUecQIHXe2hCAYcfCK7d4FE5sGOGP91xz55lg__');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
